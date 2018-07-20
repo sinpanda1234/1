@@ -1,0 +1,30 @@
+.invite-interview-form textarea.form-control {
+	resize: none;
+}
+.invite-interview-form .dropdown {
+	width: 100%;
+}
+.invite-interview-form .eo-dropdown-menu {
+	width: 100%;
+}
+.invite-interview-form .dropdown-menu {
+	width: 100%;
+}
+#interview-invitation-popup-selected-job button {
+	width: 100%; display: block !important;
+}
+.std-init-reg-form h3.title {
+	text-align: left; color: rgb(73, 73, 73); line-height: 24px; font-family: Gotham SSm; font-size: 18px; font-weight: bold; margin-bottom: 15px;
+}
+.std-init-reg-form .subtitle {
+	color: rgb(73, 73, 73); line-height: 18px; font-family: Gotham SSm; font-size: 13px;
+}
+.std-init-reg-form .post-a-job {
+	color: rgb(73, 73, 73); line-height: 18px; font-family: Gotham SSm; font-size: 13px;
+}
+.std-init-reg-form .subtitle {
+	text-align: left; margin-bottom: 15px;
+}
+.std-init-reg-form .btn-primary {
+	width: 100%;
+}

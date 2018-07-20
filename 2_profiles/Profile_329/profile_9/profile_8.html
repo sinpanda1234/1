@@ -1,0 +1,618 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0061)https://www.upwork.com/o/profiles/users/_~01aabce2f6bf596574/ -->
+<!DOCTYPE html PUBLIC "" ""><HTML lang="en"><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+         
+<META name="google-site-verification" content="8LSdxYDqP_frCyFHVoOuiAip3CGyk8gZZygtNqwQhoM"> 
+    
+<META name="robots" content="noodp,nodir,noydir">     
+<META name="robots" content="noarchive">     
+<META name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"> 
+    
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">     
+<META charset="utf-8">
+<SCRIPT type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQIBUF5RGwICV1ZTAQAP"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];n.exports=u;var y=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(m,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</SCRIPT>
+     <LINK href="https://www.upwork.com/o/profiles/users/_~01aabce2f6bf596574/" 
+rel="canonical">     <LINK href="https://www.upwork.com/mobile/freelancers/~01aabce2f6bf596574" 
+rel="alternate" media="only screen and (max-width: 640px)">     <LINK href="https://www.upwork.com/mobile/amp/freelancers/~01aabce2f6bf596574" 
+rel="amphtml">     
+<META content="article" property="og:type">     
+<META content="https://www.upwork.com/o/profiles/users/_~01aabce2f6bf596574/" 
+property="og:url">     
+<META content="Upwork" property="og:site_name">     
+<META name="twitter:card" content="summary">     
+<META name="twitter:site" content="@Upwork">         
+<META content="Diego Scafati" property="og:title">     
+<META content="I'm a professional Systems Engineer and Full-Stack Web Developer with more than 5 YEARS of experience.&#10;&#10;&#10;&#10;I'M A TOP-RATED DEVELOPER ! ★★★★★ 5.0&#10;&#10;&#10;&#10;I've worked on a couple of companies before venturing as a freelancer, a Digital Agency and a &quot;Magento Solution Partner Gold&quot; Company (eCommerce). Nowadays I work for a couple of consulting companies helping startups and different kind of customers.&#10;&#10;I'm very young, creative, energetic, extremely passionate and obsessed with learning, full of piss and vinegar!. I'm also a big fan of modern patterns, and new standards and technologies.&#10;&#10;&#10;WHY ME?&#10;&#10;• Guaranteed project success, always on time: If you set a deadline, I meet that. For short tasks, I always finish the work the same week you assigned it to me, and I usually work on weekends to deliver my code before Monday.&#10;&#10;• Top quality code, following professional standards and good practices.&#10;&#10;• Responsive, with regular updates: I read my email, Slack, and Skype notifications on my phone, wherever I am.&#10;&#10;• Qualified and experienced: I'm always opened to solve test assignments, where you can easily test my skills.&#10;&#10;&#10;&#10;&#10;SKILLS:&#10;&#10;Backend Development:&#10; • &quot;Modern&quot; PHP development:&#10;  ◦   PHP 7 !    (TypeHints, Traits, Closures, Streams, PDO, etc)&#10;  ◦   Modular development    (Composer, Namespaces, PSR-4)&#10;  ◦   PSR coding standars&#10;  ◦   Unit Testing    (PHP Unit, TDD)&#10;  ◦   xDebug&#10;  ◦   Others...&#10;&#10; • Advanced DB knowledge:&#10;  ◦   Relational model    (Excelent theoretical knowledge)&#10;  ◦   SQL RDBMS    (Mysql, PostgreSql, etc)&#10;  ◦   No-Sql    (MongoDb)&#10;&#10; • Design and Architectural patterns:&#10;  ◦   MVC&#10;  ◦   Dependency Injection&#10;  ◦   ActiveRecord / ORM&#10;  ◦   SOLID Design Principles&#10;  ◦   Others...&#10;&#10; • Server administration:&#10;  ◦   Linux&#10;  ◦   NginX and Apache&#10;  ◦   PHP-FPM&#10;  ◦   SSH&#10;  ◦   Vagrant&#10;  ◦   Redis&#10;  ◦   Cache    (Varnish, opCache)&#10;  ◦   Automated Deployment and Continous integration.&#10;&#10; • Framework experience:&#10;  ◦   Laravel&#10;  ◦   Magento 1.x&#10;  ◦   Drupal 7&#10;  ◦   Wordpress&#10;  ◦   Many other MVC frameworks&#10;        &#10;&#10;Frontend Development:&#10; • Advanced CSS Development&#10;  ◦   Responsive    (Grid systems, cross-browser compatibility, flexbox, etc.)&#10;  ◦   Sass&#10;  ◦   CSS modular architecture and standars    (Smacss, Bem)&#10; • JS Modular development    (AMD, ES6)&#10; • Dependency management and automatization tools    (Yo, Gulp, Grunt, Bower)&#10; • Frameworks&#10;  ◦   Bootstrap 3, Foundation, Skeleton, PureCss, etc.&#10;  ◦   Ionic and Ionic2 (Hybrid mobile apps development)&#10;  ◦   AngularJS and Angular2&#10;  ◦   Html5&#10;  ◦   jQuery&#10;  ◦   Others...&#10;&#10;&#10;General:&#10; • Git and Git Workflows    (Bitbucket, Github, Beanstalk)&#10; • SCRUM    (Having worked several years &quot;at the office&quot;, not only remotely)&#10; • Lots of tools    (Slack, Jira, Redmine, Sifter, and so on)&#10;&#10;&#10;&#10;&#10;If you are as interested as me, please, don't hesitate to contact me!" 
+property="og:description">     
+<META content="https://odesk-prod-portraits.s3.amazonaws.com/Users:dscafati:PortraitUrl?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&amp;Expires=2147483647&amp;Signature=%2FFIdXwqxOrf3wvZQdcS%2F0%2Bo%2FLrw%3D&amp;1484782839928664" 
+property="og:image">     
+<META name="twitter:title" content="Diego Scafati">     
+<META name="twitter:description" content="I'm a professional Systems Engineer and Full-Stack Web Developer with more than 5 YEARS of experience.&#10;&#10;&#10;&#10;I'M A TOP-RATED DEVELOPER ! ★★★★★ 5.0&#10;&#10;&#10;&#10;I've worked on a couple of companies before venturing as a freelancer, a Digital Agency and a &quot;Magento Solution Partner Gold&quot; Company (eCommerce). Nowadays I work for a couple of consulting companies helping startups and different kind of customers.&#10;&#10;I'm very young, creative, energetic, extremely passionate and obsessed with learning, full of piss and vinegar!. I'm also a big fan of modern patterns, and new standards and technologies.&#10;&#10;&#10;WHY ME?&#10;&#10;• Guaranteed project success, always on time: If you set a deadline, I meet that. For short tasks, I always finish the work the same week you assigned it to me, and I usually work on weekends to deliver my code before Monday.&#10;&#10;• Top quality code, following professional standards and good practices.&#10;&#10;• Responsive, with regular updates: I read my email, Slack, and Skype notifications on my phone, wherever I am.&#10;&#10;• Qualified and experienced: I'm always opened to solve test assignments, where you can easily test my skills.&#10;&#10;&#10;&#10;&#10;SKILLS:&#10;&#10;Backend Development:&#10; • &quot;Modern&quot; PHP development:&#10;  ◦   PHP 7 !    (TypeHints, Traits, Closures, Streams, PDO, etc)&#10;  ◦   Modular development    (Composer, Namespaces, PSR-4)&#10;  ◦   PSR coding standars&#10;  ◦   Unit Testing    (PHP Unit, TDD)&#10;  ◦   xDebug&#10;  ◦   Others...&#10;&#10; • Advanced DB knowledge:&#10;  ◦   Relational model    (Excelent theoretical knowledge)&#10;  ◦   SQL RDBMS    (Mysql, PostgreSql, etc)&#10;  ◦   No-Sql    (MongoDb)&#10;&#10; • Design and Architectural patterns:&#10;  ◦   MVC&#10;  ◦   Dependency Injection&#10;  ◦   ActiveRecord / ORM&#10;  ◦   SOLID Design Principles&#10;  ◦   Others...&#10;&#10; • Server administration:&#10;  ◦   Linux&#10;  ◦   NginX and Apache&#10;  ◦   PHP-FPM&#10;  ◦   SSH&#10;  ◦   Vagrant&#10;  ◦   Redis&#10;  ◦   Cache    (Varnish, opCache)&#10;  ◦   Automated Deployment and Continous integration.&#10;&#10; • Framework experience:&#10;  ◦   Laravel&#10;  ◦   Magento 1.x&#10;  ◦   Drupal 7&#10;  ◦   Wordpress&#10;  ◦   Many other MVC frameworks&#10;        &#10;&#10;Frontend Development:&#10; • Advanced CSS Development&#10;  ◦   Responsive    (Grid systems, cross-browser compatibility, flexbox, etc.)&#10;  ◦   Sass&#10;  ◦   CSS modular architecture and standars    (Smacss, Bem)&#10; • JS Modular development    (AMD, ES6)&#10; • Dependency management and automatization tools    (Yo, Gulp, Grunt, Bower)&#10; • Frameworks&#10;  ◦   Bootstrap 3, Foundation, Skeleton, PureCss, etc.&#10;  ◦   Ionic and Ionic2 (Hybrid mobile apps development)&#10;  ◦   AngularJS and Angular2&#10;  ◦   Html5&#10;  ◦   jQuery&#10;  ◦   Others...&#10;&#10;&#10;General:&#10; • Git and Git Workflows    (Bitbucket, Github, Beanstalk)&#10; • SCRUM    (Having worked several years &quot;at the office&quot;, not only remotely)&#10; • Lots of tools    (Slack, Jira, Redmine, Sifter, and so on)&#10;&#10;&#10;&#10;&#10;If you are as interested as me, please, don't hesitate to contact me!"> 
+    
+<META name="twitter:image" content="https://odesk-prod-portraits.s3.amazonaws.com/Users:dscafati:PortraitUrl?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&amp;Expires=2147483647&amp;Signature=%2FFIdXwqxOrf3wvZQdcS%2F0%2Bo%2FLrw%3D&amp;1484782839928664"> 
+    
+<META name="Description" content="I'm a professional Systems Engineer and Full-Stack Web Developer with more than 5 YEARS of experience.&#10;&#10;&#10;&#10;I'M A TOP-RATED DEVELOPER ! ★★★★★ 5.0&#10;&#10;&#10;&#10;I've worked on a couple of companies before venturing as a freelancer, a Digital Agency and a &quot;Magento Solution Partner Gold&quot; Company (eCommerce). Nowadays I work for a couple of consulting companies helping startups and different kind of customers.&#10;&#10;I'm very young, creative, energetic, extremely passionate and obsessed with learning, full of piss and vinegar!. I'm also a big fan of modern patterns, and new standards and technologies.&#10;&#10;&#10;WHY ME?&#10;&#10;• Guaranteed project success, always on time: If you set a deadline, I meet that. For short tasks, I always finish the work the same week you assigned it to me, and I usually work on weekends to deliver my code before Monday.&#10;&#10;• Top quality code, following professional standards and good practices.&#10;&#10;• Responsive, with regular updates: I read my email, Slack, and Skype notifications on my phone, wherever I am.&#10;&#10;• Qualified and experienced: I'm always opened to solve test assignments, where you can easily test my skills.&#10;&#10;&#10;&#10;&#10;SKILLS:&#10;&#10;Backend Development:&#10; • &quot;Modern&quot; PHP development:&#10;  ◦   PHP 7 !    (TypeHints, Traits, Closures, Streams, PDO, etc)&#10;  ◦   Modular development    (Composer, Namespaces, PSR-4)&#10;  ◦   PSR coding standars&#10;  ◦   Unit Testing    (PHP Unit, TDD)&#10;  ◦   xDebug&#10;  ◦   Others...&#10;&#10; • Advanced DB knowledge:&#10;  ◦   Relational model    (Excelent theoretical knowledge)&#10;  ◦   SQL RDBMS    (Mysql, PostgreSql, etc)&#10;  ◦   No-Sql    (MongoDb)&#10;&#10; • Design and Architectural patterns:&#10;  ◦   MVC&#10;  ◦   Dependency Injection&#10;  ◦   ActiveRecord / ORM&#10;  ◦   SOLID Design Principles&#10;  ◦   Others...&#10;&#10; • Server administration:&#10;  ◦   Linux&#10;  ◦   NginX and Apache&#10;  ◦   PHP-FPM&#10;  ◦   SSH&#10;  ◦   Vagrant&#10;  ◦   Redis&#10;  ◦   Cache    (Varnish, opCache)&#10;  ◦   Automated Deployment and Continous integration.&#10;&#10; • Framework experience:&#10;  ◦   Laravel&#10;  ◦   Magento 1.x&#10;  ◦   Drupal 7&#10;  ◦   Wordpress&#10;  ◦   Many other MVC frameworks&#10;        &#10;&#10;Frontend Development:&#10; • Advanced CSS Development&#10;  ◦   Responsive    (Grid systems, cross-browser compatibility, flexbox, etc.)&#10;  ◦   Sass&#10;  ◦   CSS modular architecture and standars    (Smacss, Bem)&#10; • JS Modular development    (AMD, ES6)&#10; • Dependency management and automatization tools    (Yo, Gulp, Grunt, Bower)&#10; • Frameworks&#10;  ◦   Bootstrap 3, Foundation, Skeleton, PureCss, etc.&#10;  ◦   Ionic and Ionic2 (Hybrid mobile apps development)&#10;  ◦   AngularJS and Angular2&#10;  ◦   Html5&#10;  ◦   jQuery&#10;  ◦   Others...&#10;&#10;&#10;General:&#10; • Git and Git Workflows    (Bitbucket, Github, Beanstalk)&#10; • SCRUM    (Having worked several years &quot;at the office&quot;, not only remotely)&#10; • Lots of tools    (Slack, Jira, Redmine, Sifter, and so on)&#10;&#10;&#10;&#10;&#10;If you are as interested as me, please, don't hesitate to contact me!"> 
+        <TITLE>        Diego Scafati     - EXPERT | FULL-STACK web developer - 
+Upwork Freelancer from Tandil, Argentina </TITLE>     
+<SCRIPT type="text/javascript">
+  function create_mark(name) {
+    window.performance && window.performance.mark && window.performance.mark(name);
+  }
+
+  function remove_mark(name) {
+    window.performance && window.performance.clearMarks && window.performance.clearMarks(name);
+  }
+
+  function create_measure(name, startMark, endMark) {
+    window.performance && window.performance.measure && window.performance.measure(name, startMark, endMark);
+  }
+
+  function remove_measure(name) {
+    window.performance && window.performance.clearMeasures && window.performance.clearMeasures(name);
+  }
+</SCRIPT>
+                         <LINK onload="remove_mark('navCompRenderEnd');remove_measure('navCompRendered');create_mark('navCompRenderEnd');create_measure('navCompRendered', 'navigationStart', 'navCompRenderEnd');" 
+href="profile_8_files/air2.global.4.2.0.min.css" rel="stylesheet">               
+      <LINK onload="remove_mark('navCompRenderEnd');remove_measure('navCompRendered');create_mark('navCompRenderEnd');create_measure('navCompRendered', 'navigationStart', 'navCompRenderEnd');" 
+href="profile_8_files/fonts.air2-icons.1.15.0.css" rel="stylesheet">             
+        <LINK onload="remove_mark('navCompRenderEnd');remove_measure('navCompRendered');create_mark('navCompRenderEnd');create_measure('navCompRendered', 'navigationStart', 'navCompRenderEnd');" 
+href="profile_8_files/fonts.gotham.1.15.0.css" rel="stylesheet">                 
+    <LINK href="profile_8_files/profile-vendor-es6.min.css" rel="stylesheet">    
+                 <LINK href="profile_8_files/profile-es6.min.css" rel="stylesheet"> 
+                        <LINK href="/favicon.ico" rel="icon" 
+type="image/x-icon">                             <LINK onload="this.rel='stylesheet'" 
+href="https://assets.static-upwork.com/fonts/1.15.0/fonts.gotham-async.1.15.0.css" 
+rel="preload" as="style">             <NOSCRIPT>&lt;link rel="stylesheet" 
+href="https://assets.static-upwork.com/fonts/1.15.0/fonts.gotham-async.1.15.0.css"&gt;</NOSCRIPT> 
+                
+<SCRIPT type="text/javascript">!function(a){var b=function(b,c,d){function j(a){return e.body?a():void setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);</SCRIPT>
+         
+<SCRIPT type="text/javascript">!function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);</SCRIPT>
+         
+<SCRIPT type="text/javascript">
+    // global Applet object
+    var Applet = new function() {
+        var basePath = '/freelancers';
+        var phpVars = {"csrfTokenCookieName":"XSRF-TOKEN","csrfTokenHeaderName":"X-Odesk-Csrf-Token","runtime_id":"390baa9e6ed34f0e-DME","clientStatsDMetrics":true,"smfAjax":false,"NotificationASIntegration":true,"disputesASIntegration":false,"pageSpeedMetrics":false,"ccstCookieName":"oauth2_global_js_token","account_security_base_url":"\/ab\/account-security","pageId":"flPublicProfile","oAuth2Tokens":[],"profileSettings":{"csrfTokenCookieName":null,"csrfTokenHeaderName":null,"runtime_id":null,"clientStatsDMetrics":null,"scrubbingFlags":[],"smfAjax":null,"profile":{"identity":{"userId":null,"ciphertext":"~01aabce2f6bf596574","recno":3904539,"legacyCiphertext":"~~f0e3c30db27b6d4c","uid":"424302387381698560","edcUserId":0},"profile":{"name":"Diego Scafati","shortName":"Diego S.","title":"EXPERT | FULL-STACK web developer","description":"I'm a professional Systems Engineer and Full-Stack Web Developer with more than 5 YEARS of experience.\n\n\n\nI'M A TOP-RATED DEVELOPER !\u2001\u2605\u2605\u2605\u2605\u2605 5.0\n\n\n\nI've worked on a couple of companies before venturing as a freelancer, a Digital Agency and a \"Magento Solution Partner Gold\" Company (eCommerce). Nowadays I work for a couple of consulting companies helping startups and different kind of customers.\n\nI'm very young, creative, energetic, extremely passionate and obsessed with learning, full of piss and vinegar!. I'm also a big fan of modern patterns, and new standards and technologies.\n\n\nWHY ME?\n\n\u2022 Guaranteed project success, always on time: If you set a deadline, I meet that. For short tasks, I always finish the work the same week you assigned it to me, and I usually work on weekends to deliver my code before Monday.\n\n\u2022 Top quality code, following professional standards and good practices.\n\n\u2022 Responsive, with regular updates: I read my email, Slack, and Skype notifications on my phone, wherever I am.\n\n\u2022 Qualified and experienced: I'm always opened to solve test assignments, where you can easily test my skills.\n\n\n\n\nSKILLS:\n\nBackend Development:\n\u2001\u2022 \"Modern\" PHP development:\n\u2001\u2001\u25e6   PHP 7 !    (TypeHints, Traits, Closures, Streams, PDO, etc)\n\u2001\u2001\u25e6   Modular development    (Composer, Namespaces, PSR-4)\n\u2001\u2001\u25e6   PSR coding standars\n\u2001\u2001\u25e6   Unit Testing    (PHP Unit, TDD)\n\u2001\u2001\u25e6   xDebug\n\u2001\u2001\u25e6   Others...\n\n\u2001\u2022 Advanced DB knowledge:\n\u2001\u2001\u25e6   Relational model    (Excelent theoretical knowledge)\n\u2001\u2001\u25e6   SQL RDBMS    (Mysql, PostgreSql, etc)\n\u2001\u2001\u25e6   No-Sql    (MongoDb)\n\n\u2001\u2022 Design and Architectural patterns:\n\u2001\u2001\u25e6   MVC\n\u2001\u2001\u25e6   Dependency Injection\n\u2001\u2001\u25e6   ActiveRecord \/ ORM\n\u2001\u2001\u25e6   SOLID Design Principles\n\u2001\u2001\u25e6   Others...\n\n\u2001\u2022 Server administration:\n\u2001\u2001\u25e6   Linux\n\u2001\u2001\u25e6   NginX and Apache\n\u2001\u2001\u25e6   PHP-FPM\n\u2001\u2001\u25e6   SSH\n\u2001\u2001\u25e6   Vagrant\n\u2001\u2001\u25e6   Redis\n\u2001\u2001\u25e6   Cache    (Varnish, opCache)\n\u2001\u2001\u25e6   Automated Deployment and Continous integration.\n\n\u2001\u2022 Framework experience:\n\u2001\u2001\u25e6   Laravel\n\u2001\u2001\u25e6   Magento 1.x\n\u2001\u2001\u25e6   Drupal 7\n\u2001\u2001\u25e6   Wordpress\n\u2001\u2001\u25e6   Many other MVC frameworks\n        \n\nFrontend Development:\n\u2001\u2022 Advanced CSS Development\n\u2001\u2001\u25e6   Responsive    (Grid systems, cross-browser compatibility, flexbox, etc.)\n\u2001\u2001\u25e6   Sass\n\u2001\u2001\u25e6   CSS modular architecture and standars    (Smacss, Bem)\n\u2001\u2022 JS Modular development    (AMD, ES6)\n\u2001\u2022 Dependency management and automatization tools    (Yo, Gulp, Grunt, Bower)\n\u2001\u2022 Frameworks\n\u2001\u2001\u25e6   Bootstrap 3, Foundation, Skeleton, PureCss, etc.\n\u2001\u2001\u25e6   Ionic and Ionic2 (Hybrid mobile apps development)\n\u2001\u2001\u25e6   AngularJS and Angular2\n\u2001\u2001\u25e6   Html5\n\u2001\u2001\u25e6   jQuery\n\u2001\u2001\u25e6   Others...\n\n\nGeneral:\n\u2001\u2022 Git and Git Workflows    (Bitbucket, Github, Beanstalk)\n\u2001\u2022 SCRUM    (Having worked several years \"at the office\", not only remotely)\n\u2001\u2022 Lots of tools    (Slack, Jira, Redmine, Sifter, and so on)\n\n\n\n\nIf you are as interested as me, please, don't hesitate to contact me!","location":{"country":"Argentina","city":"Tandil","state":null,"countryTimezone":"UTC-03:00 E Argentina (BA, DF, SC, TF)","worldRegion":"Tandil, Argentina (UTC-03:00)","timezoneOffset":-10800,"countryCodeIso2":"AR","countryCodeIso3":"ARG","countryCode":"ARG"},"portrait":{"portrait":"https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:dscafati:PortraitUrl?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=%2FFIdXwqxOrf3wvZQdcS%2F0%2Bo%2FLrw%3D&1484782839928664","bigPortrait":"https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:dscafati:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=5OIugbbwU6%2FZaoInl5XwDz76kTA%3D&1484782839928664","smallPortrait":"https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:dscafati:PortraitUrl_50?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=KdVaPMfW6MZrD0%2BUhWV7IZO9UE8%3D&1484782839928664","originalPortrait":"https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:dscafati:PortraitUrl_original?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=juVx5AbENbjf2dU6%2FCKHTyYHR18%3D&1484782839928664"},"skills":[{"name":"laravel-framework","prettyName":"Laravel Framework","active":false,"testsCount":0,"hasTests":true,"uid":"545011041518387200","rank":1,"description":"","externalUrl":"http:\/\/en.wikipedia.org\/wiki\/Laravel","tests":null,"certificates":null},{"name":"ionic-framework","prettyName":"Ionic Framework","active":false,"testsCount":0,"hasTests":true,"uid":"537174822934642688","rank":2,"description":"\"Ionic, a free and open source framework, offers a library of mobile-optimized HTML, CSS and JS components, gestures, and tools for building interactive apps. It is built with Sass and optimized for AngularJS.\"","externalUrl":"http:\/\/ionicframework.com\/","tests":null,"certificates":null},{"name":"wordpress","prettyName":"WordPress","active":false,"testsCount":0,"hasTests":true,"uid":"475721704281112587","rank":3,"description":"WordPress is a free and open source blogging tool and content management system (CMS) powered by PHP and MySQL. It has many features including a plug-in architecture and a template system.","externalUrl":"http:\/\/en.wikipedia.org\/wiki\/WordPress","tests":null,"certificates":null},{"name":"angularjs","prettyName":"AngularJS","active":false,"testsCount":0,"hasTests":true,"uid":"514995524179521536","rank":4,"description":"AngularJS is an open-source web application framework, maintained by Google and community, that assists with creating single-page applications, one-page web applications that only require HTML, CSS, and JavaScript on the client side. ","externalUrl":"http:\/\/en.wikipedia.org\/wiki\/AngularJS","tests":null,"certificates":null},{"name":"javascript","prettyName":"JavaScript","active":true,"testsCount":1,"hasTests":true,"uid":"475721704021065738","rank":5,"description":"JavaScript is a prototype-based scripting language that is dynamic, weakly typed and has first-class functions. It is a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles.","externalUrl":"http:\/\/en.wikipedia.org\/wiki\/JavaScript","tests":null,"certificates":null},{"name":"sql","prettyName":"SQL","active":true,"testsCount":1,"hasTests":true,"uid":"475721704197226500","rank":6,"description":"Structured Query Language (SQL) is a programming language designed for managing data in relational database management systems (RDBMS).","externalUrl":"http:\/\/en.wikipedia.org\/wiki\/SQL","tests":null,"certificates":null},{"name":"css3","prettyName":"CSS3","active":true,"testsCount":1,"hasTests":true,"uid":"475721704339832832","rank":7,"description":"Cascading Style Sheets (CSS) is a style sheet language used to describe the presentation (that is, the look and formatting) of a document written in a markup language.","externalUrl":"http:\/\/en.wikipedia.org\/wiki\/Cascading_Style_Sheets","tests":null,"certificates":null},{"name":"html5","prettyName":"HTML5","active":false,"testsCount":0,"hasTests":true,"uid":"475721704390164481","rank":8,"description":"HTML5 is a language for structuring and presenting content for the World Wide Web, and is a core technology of the Internet originally proposed by Opera Software. It is the fifth revision of the HTML standard.","externalUrl":"http:\/\/en.wikipedia.org\/wiki\/HTML_5","tests":null,"certificates":null},{"name":"php","prettyName":"PHP","active":false,"testsCount":0,"hasTests":true,"uid":"475721704125923333","rank":9,"description":"PHP is a general-purpose server-side scripting language originally designed for web development to produce dynamic web pages.","externalUrl":"http:\/\/en.wikipedia.org\/wiki\/PHP","tests":null,"certificates":null},{"name":"magento","prettyName":"Magento","active":false,"testsCount":0,"hasTests":true,"uid":"475721704050425859","rank":10,"description":"Magento is an open source based ecommerce web application that was launched on March 31, 2008. It was developed by Varien (now Magento Inc) with help from the programmers within the open source community but is owned solely by Magento Inc..","externalUrl":"http:\/\/en.wikipedia.org\/wiki\/Magento","tests":null,"certificates":null}],"visibility":1,"isDisabled":false,"affiliated":false,"isLooking":false,"isLookingWeek":false,"exposeFullName":true,"confidentialityBound":false,"isConsoleViewable":false,"isSearchable":false,"agencyRef":null,"idVerified":false,"exposeBillings":true,"pci":{"action":null,"actionCredit":0,"actual":140,"ts":"1502356319","display":100},"phoneVerified":false,"state":"Accepted","hideAgencyEarnings":false,"contractorTier":3,"exclusiveAgencyContractor":false,"hideJss":false,"firstName":"Diego"},"stats":{"totalHours":1091.99999994,"totalHoursRecent":555,"totalFeedback":5,"totalFeedbackRecent":0,"totalJobsWorked":10,"totalJobsWorkedRecent":1,"rating":5,"ratingRecent":5,"hourlyRate":{"currencyCode":"USD","amount":49.99},"totalPortfolioItems":6,"englishLevel":3,"memberSince":"2013-04-13T00:00:00.000Z","lastWorkedOn":"2017-08-14T00:00:00.000Z","hireAgainPercentage":80,"totalHourlyJobs":9,"totalHourlyJobsRecent":1,"totalFixedJobs":1,"totalFixedJobsRecent":0,"isRecommended":false,"responsiveState":"within_a_day","privateFeedbackHireAgain":0,"scores":0,"totalRevenue":28835.83,"skillTestsPassed":0,"activeInterviews":0,"activeAssignments":0,"nSS100BwScore":1,"topRatedStatus":"top_rated","totalHoursActual":1089.67,"edcAssignments":0,"totalEarnings":31072.98,"recentEarnings":16226.39,"averageRecentEarnings":16226.39,"nSS100PtScore":100},"video":null,"groups":null,"tests":[{"name":"U.S. English Basic Skills Test","score":80,"duration":19,"isPassed":true,"rank":266595,"percentile":73,"id":15248545,"dateTaken":"2016-10-18T00:00:00.000Z","provider":"Expert Rating","visibility":1},{"name":"Javascript Test","score":95,"duration":16,"isPassed":true,"rank":5266,"percentile":95,"id":12202235,"dateTaken":"2015-03-24T00:00:00.000Z","provider":"oDesk","visibility":1},{"name":"SQL Test","score":87,"duration":32,"isPassed":true,"rank":2551,"percentile":87,"id":11612180,"dateTaken":"2014-12-31T00:00:00.000Z","provider":"oDesk","visibility":1},{"name":"jQuery Test","score":85,"duration":41,"isPassed":true,"rank":5301,"percentile":85,"id":11612075,"dateTaken":"2014-12-31T00:00:00.000Z","provider":"oDesk","visibility":1},{"name":"CSS Test","score":78,"duration":33,"isPassed":true,"rank":39293,"percentile":78,"id":11567236,"dateTaken":"2014-12-24T00:00:00.000Z","provider":"oDesk","visibility":1},{"name":"oDesk Readiness Test for Independent Contractors and Staffing Managers","score":100,"duration":1,"isPassed":true,"rank":2,"percentile":65,"id":11567126,"dateTaken":"2014-12-24T00:00:00.000Z","provider":"Expert Rating","visibility":1},{"name":"Windows XP Test","score":70,"duration":11,"isPassed":true,"rank":52511,"percentile":77,"id":6929254,"dateTaken":"2013-04-13T00:00:00.000Z","provider":"Expert Rating","visibility":1}],"agencies":null,"portfolios":null,"competencies":null,"assignments":[{"startedOn":"2015-09-01T00:00:00.000Z","endedOn":"2016-08-01T00:00:00.000Z","totalCharges":{"currencyCode":"USD","amount":234.33},"totalHours":12,"hourlyRate":{"currencyCode":"USD","amount":19},"type":2,"title":"Teach me to improve my PHP","feedback":{"score":5,"comment":"Diego is a really skilled programmer and he really knows his stuff. He's fast and efficient and has a good eye for what is possible and what isn't. I'll give him my best recommendations. He's really talented and I'll definitely use him again later.","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of specifications\/instructions"},{"score":5,"label":"Quality","description":"quality of work deliverables"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"ability to complete tasks on time"},{"score":5,"label":"Communication","description":"communication skills, frequent progress updates, responsiveness"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, suggestions for improvement"}]},"linkedPortfolio":null,"description":"Worked for an employer from Denmark in a ","clientId":"715717","isPrivate":false,"agencyName":null,"status":null,"initialAmount":{"currencyCode":"USD","amount":0},"hoursPerWeek":0,"openingRid":"205988702","skills":null,"totalEarnings":null,"blendedChargeRate":null,"blendedEarnRate":null,"feedbackGiven":{"score":5,"comment":"Recommendable","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of task complexities"},{"score":5,"label":"Quality","description":"quality of specifications\/instructions"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"understanding of complexities and trade-offs"},{"score":5,"label":"Communication","description":"communication skills and responsiveness, feedback and guidance"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, open to suggestions for improvement"}]},"id":"15376746","isEdc":false,"ciphertext":"~018ca27877fe36be1c","isPtc":false,"isOpeningVisible":true,"accessType":1,"openingHidden":false},{"startedOn":"2015-07-01T00:00:00.000Z","endedOn":"2015-08-01T00:00:00.000Z","totalCharges":{"currencyCode":"USD","amount":33.34},"totalHours":2,"hourlyRate":{"currencyCode":"USD","amount":16.67},"type":2,"title":"URGENT | Improve a landing page for body wash and soap","feedback":{"score":5,"comment":"contracted was ended","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of specifications\/instructions"},{"score":5,"label":"Quality","description":"quality of work deliverables"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"ability to complete tasks on time"},{"score":5,"label":"Communication","description":"communication skills, frequent progress updates, responsiveness"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, suggestions for improvement"}]},"linkedPortfolio":null,"description":"Worked for an employer from United States in a ","clientId":"1336862","isPrivate":false,"agencyName":null,"status":null,"initialAmount":{"currencyCode":"USD","amount":0},"hoursPerWeek":0,"openingRid":"205763305","skills":null,"totalEarnings":null,"blendedChargeRate":null,"blendedEarnRate":null,"feedbackGiven":{"score":5,"comment":"Recommendable client. I resolved a short task, it was well described. I felt very comfortable working with Lin, hi is never annoying you.","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of task complexities"},{"score":5,"label":"Quality","description":"quality of specifications\/instructions"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"understanding of complexities and trade-offs"},{"score":5,"label":"Communication","description":"communication skills and responsiveness, feedback and guidance"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, open to suggestions for improvement"}]},"id":"15212910","isEdc":false,"ciphertext":"~01f6e580e29a0bda6e","isPtc":false,"isOpeningVisible":true,"accessType":1,"openingHidden":false},{"startedOn":"2015-01-01T00:00:00.000Z","endedOn":"2015-01-01T00:00:00.000Z","totalCharges":{"currencyCode":"USD","amount":65.17},"totalHours":5.33,"hourlyRate":{"currencyCode":"USD","amount":12.22},"type":2,"title":"One screen PSD to HTML, looking to hire regularly on frontend projects","feedback":{"score":5,"comment":"Working with Diego is an absolute bliss. He is professional, skilled and works very structured. The quality of the delivered work was not pixel perfect but very close. I would recommend Diego for any frontend project without a doubt.","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of specifications\/instructions"},{"score":5,"label":"Quality","description":"quality of work deliverables"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"ability to complete tasks on time"},{"score":5,"label":"Communication","description":"communication skills, frequent progress updates, responsiveness"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, suggestions for improvement"}]},"linkedPortfolio":null,"description":"Worked for an employer from Netherlands in a Web Development\/Web Programming","clientId":"1736683","isPrivate":false,"agencyName":null,"status":null,"initialAmount":{"currencyCode":"USD","amount":0},"hoursPerWeek":0,"openingRid":"204987000","skills":null,"totalEarnings":null,"blendedChargeRate":null,"blendedEarnRate":null,"feedbackGiven":{"score":5,"comment":"It was a pleasure to work with Ronald. We will continue working on a different contract. He has a good availability to response all your questions. He prefer spend time in clarify your questions rather than pressuring you. The requirements are clear, and he shares with you any material that could be helpful.\r\nRecommendable client.","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of task complexities"},{"score":5,"label":"Quality","description":"quality of specifications\/instructions"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"understanding of complexities and trade-offs"},{"score":5,"label":"Communication","description":"communication skills and responsiveness, feedback and guidance"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, open to suggestions for improvement"}]},"id":"14716471","isEdc":false,"ciphertext":"~01b6d89a249b175c6b","isPtc":false,"isOpeningVisible":true,"accessType":1,"openingHidden":false}],"availability":{"availabilityTs":null,"source":"profile_ui","uid":"803067933421826048","personUid":"424302387381698560","capacity":{"nid":"notSure","name":"As Needed - Open to Offers"},"creationTs":"2016-11-28T02:48:10Z"},"clientRelationship":null,"languages":null,"certificates":null,"employmentHistory":null,"education":null,"otherExperiences":null,"esn":[],"jobCategoriesV2":[{"groupUid":"531770282580668418","groupName":"Web, Mobile & Software Dev","selectedCategories":[{"uid":"531770282589057032","name":"Other - Software Development"},{"uid":"531770282584862733","name":"Web Development"},{"uid":"531770282589057029","name":"Web & Mobile Design"}]}],"assignmentsInProgress":[{"startedOn":"2016-01-01T00:00:00.000Z","endedOn":null,"totalCharges":{"currencyCode":"USD","amount":2625.66},"totalHours":118,"hourlyRate":{"currencyCode":"USD","amount":22.22},"type":2,"title":"Frontend web developer \/w Magento skills","feedback":null,"linkedPortfolio":null,"description":"Working for an employer from Netherlands in a ","clientId":"968261","isPrivate":false,"agencyName":null,"status":null,"initialAmount":{"currencyCode":"USD","amount":0},"hoursPerWeek":0,"openingRid":"206593162","skills":null,"totalEarnings":null,"blendedChargeRate":null,"blendedEarnRate":null,"feedbackGiven":null,"id":"15763910","isEdc":false,"ciphertext":"~018e125387edad29c0","isPtc":false,"isOpeningVisible":true,"accessType":1,"openingHidden":false},{"startedOn":"2015-08-01T00:00:00.000Z","endedOn":null,"totalCharges":{"currencyCode":"USD","amount":26547.68},"totalHours":915,"hourlyRate":{"currencyCode":"USD","amount":30},"type":2,"title":"Need quick help using SASS, Git, WordPress and Photoshop","feedback":null,"linkedPortfolio":null,"description":"Working for an employer from United States in a ","clientId":"1106686","isPrivate":false,"agencyName":null,"status":null,"initialAmount":{"currencyCode":"USD","amount":0},"hoursPerWeek":0,"openingRid":"205867728","skills":null,"totalEarnings":null,"blendedChargeRate":null,"blendedEarnRate":null,"feedbackGiven":null,"id":"15278110","isEdc":false,"ciphertext":"~01fc182c9296062774","isPtc":false,"isOpeningVisible":true,"accessType":1,"openingHidden":false}],"assignmentsEnded":{"pageNumber":1,"itemsPerPage":10,"totalItems":3,"sortOrder":1,"assignments":[{"startedOn":"2015-09-01T00:00:00.000Z","endedOn":"2016-08-01T00:00:00.000Z","totalCharges":{"currencyCode":"USD","amount":234.33},"totalHours":12,"hourlyRate":{"currencyCode":"USD","amount":19},"type":2,"title":"Teach me to improve my PHP","feedback":{"score":5,"comment":"Diego is a really skilled programmer and he really knows his stuff. He's fast and efficient and has a good eye for what is possible and what isn't. I'll give him my best recommendations. He's really talented and I'll definitely use him again later.","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of specifications\/instructions"},{"score":5,"label":"Quality","description":"quality of work deliverables"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"ability to complete tasks on time"},{"score":5,"label":"Communication","description":"communication skills, frequent progress updates, responsiveness"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, suggestions for improvement"}]},"linkedPortfolio":null,"description":"Worked for an employer from Denmark in a ","clientId":"715717","isPrivate":false,"agencyName":null,"status":null,"initialAmount":{"currencyCode":"USD","amount":0},"hoursPerWeek":0,"openingRid":"205988702","skills":null,"totalEarnings":null,"blendedChargeRate":null,"blendedEarnRate":null,"feedbackGiven":{"score":5,"comment":"Recommendable","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of task complexities"},{"score":5,"label":"Quality","description":"quality of specifications\/instructions"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"understanding of complexities and trade-offs"},{"score":5,"label":"Communication","description":"communication skills and responsiveness, feedback and guidance"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, open to suggestions for improvement"}]},"id":"15376746","isEdc":false,"ciphertext":"~018ca27877fe36be1c","isPtc":false,"isOpeningVisible":true,"accessType":1,"openingHidden":false},{"startedOn":"2015-07-01T00:00:00.000Z","endedOn":"2015-08-01T00:00:00.000Z","totalCharges":{"currencyCode":"USD","amount":33.34},"totalHours":2,"hourlyRate":{"currencyCode":"USD","amount":16.67},"type":2,"title":"URGENT | Improve a landing page for body wash and soap","feedback":{"score":5,"comment":"contracted was ended","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of specifications\/instructions"},{"score":5,"label":"Quality","description":"quality of work deliverables"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"ability to complete tasks on time"},{"score":5,"label":"Communication","description":"communication skills, frequent progress updates, responsiveness"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, suggestions for improvement"}]},"linkedPortfolio":null,"description":"Worked for an employer from United States in a ","clientId":"1336862","isPrivate":false,"agencyName":null,"status":null,"initialAmount":{"currencyCode":"USD","amount":0},"hoursPerWeek":0,"openingRid":"205763305","skills":null,"totalEarnings":null,"blendedChargeRate":null,"blendedEarnRate":null,"feedbackGiven":{"score":5,"comment":"Recommendable client. I resolved a short task, it was well described. I felt very comfortable working with Lin, hi is never annoying you.","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of task complexities"},{"score":5,"label":"Quality","description":"quality of specifications\/instructions"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"understanding of complexities and trade-offs"},{"score":5,"label":"Communication","description":"communication skills and responsiveness, feedback and guidance"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, open to suggestions for improvement"}]},"id":"15212910","isEdc":false,"ciphertext":"~01f6e580e29a0bda6e","isPtc":false,"isOpeningVisible":true,"accessType":1,"openingHidden":false},{"startedOn":"2015-01-01T00:00:00.000Z","endedOn":"2015-01-01T00:00:00.000Z","totalCharges":{"currencyCode":"USD","amount":65.17},"totalHours":5.33,"hourlyRate":{"currencyCode":"USD","amount":12.22},"type":2,"title":"One screen PSD to HTML, looking to hire regularly on frontend projects","feedback":{"score":5,"comment":"Working with Diego is an absolute bliss. He is professional, skilled and works very structured. The quality of the delivered work was not pixel perfect but very close. I would recommend Diego for any frontend project without a doubt.","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of specifications\/instructions"},{"score":5,"label":"Quality","description":"quality of work deliverables"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"ability to complete tasks on time"},{"score":5,"label":"Communication","description":"communication skills, frequent progress updates, responsiveness"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, suggestions for improvement"}]},"linkedPortfolio":null,"description":"Worked for an employer from Netherlands in a Web Development\/Web Programming","clientId":"1736683","isPrivate":false,"agencyName":null,"status":null,"initialAmount":{"currencyCode":"USD","amount":0},"hoursPerWeek":0,"openingRid":"204987000","skills":null,"totalEarnings":null,"blendedChargeRate":null,"blendedEarnRate":null,"feedbackGiven":{"score":5,"comment":"It was a pleasure to work with Ronald. We will continue working on a different contract. He has a good availability to response all your questions. He prefer spend time in clarify your questions rather than pressuring you. The requirements are clear, and he shares with you any material that could be helpful.\r\nRecommendable client.","commentIsPublic":true,"response":null,"scoreDetails":[{"score":5,"label":"Skills","description":"competency and skills for the job, understanding of task complexities"},{"score":5,"label":"Quality","description":"quality of specifications\/instructions"},{"score":5,"label":"Availability","description":"online presence on a consistent schedule"},{"score":5,"label":"Deadlines","description":"understanding of complexities and trade-offs"},{"score":5,"label":"Communication","description":"communication skills and responsiveness, feedback and guidance"},{"score":5,"label":"Cooperation","description":"cooperation and flexibility, open to suggestions for improvement"}]},"id":"14716471","isEdc":false,"ciphertext":"~01b6d89a249b175c6b","isPtc":false,"isOpeningVisible":true,"accessType":1,"openingHidden":false}],"filterClientAssignments":false},"assignmentsSelected":null,"locked":false},"userId":"424302387381698560","userRid":"3904539","isOwner":false,"isViewAsOthers":false,"isVisitor":true,"isFreelancer":false,"isClient":false,"isAgency":false,"isHideEarnings":false,"refererUrl":null,"firstName":null,"lastName":null,"isPhoneVerified":null,"startInEditMode":false,"profileUrl":"https:\/\/www.upwork.com\/o\/profiles\/users\/_~01aabce2f6bf596574\/","qualifiesForCustomUrl":null,"qt":[],"ff":{"ShowFreelancerTotalHoursUpdated":false,"FP6777FsHideEarnings":true,"FP8147DisplayFLEarnings":true,"FP7853ProfileInterviewWidget":true,"ResponsiveStatsFreelancerShorten":true,"FP8328BasicSkillsTest":false,"FP9310NewSaveFLButton":true,"FP9553HideFreelancerLastName":true,"RewardConsistentEarningsPhase2":true,"contractWorkroom":true,"ReplaceRevenueByEarnings":false},"referer":null,"reportProject":null,"phoneRequired":false,"ShowAggregateRatingSchema":true,"ReplacePublicAggFeedbackWithNss":true,"isEnterprise":null,"isTopRated":false,"projectUid":false,"utimezoneOffset":null,"isACE":false,"isOnboardingV2":false,"clientName":"","isUnavailableForClientsInterview":false,"clientJobs":[],"isProfileOnTempHoldState":false,"isHireButtonDisabled":false,"areClientControlsHidden":false,"interviewInvitationDataFromKVLkey":null,"rateMinValue":null,"rateMaxValue":null,"facebookAppId":null,"recommendedOpeningRids":null,"profileOverviewWordCount":80,"isBestMatchWorkExplanation":false,"hideRightColumn":false,"hideOpenInNewWindowLink":false}};
+        var angularCache = [];
+        var assetsVersion = null;
+        var assetsBaseUri = "";
+        var instanceEnv = "prod";
+
+        var buildBundlePath = function(path) {
+            var bundleRegex = /^@([^\/]*)Bundle\/(.*)$/;
+            var matches = bundleRegex.exec(path);
+
+            if (matches != null) {
+                return '/bundles/' + matches[1].toLowerCase() + '/' + matches[2];
+            }
+            return path;
+        };
+
+        this.getBasePath = function() {
+            return basePath;
+        };
+
+        this.buildInternalAssetPath = function(path) {
+            // CDN assets
+            if (assetsBaseUri) {
+                return assetsBaseUri + '/' + assetsVersion + buildBundlePath(path);
+            }
+
+            // Local assets
+            var url = basePath + buildBundlePath(path);
+            if (assetsVersion) {
+                if (url.indexOf('?') < 0) {
+                    return url + '?' + assetsVersion;
+                } else {
+                    return url + '&' + assetsVersion;
+                }
+            }
+            return url;
+        };
+
+        var visitorId = null;
+                visitorId = "188.43.224.141.1503126615417156";
+        
+        this.getVisitorId = function() {
+            return visitorId;
+        };
+
+        var visitorApiKey = null;
+                    visitorApiKey = "2296320f71435c33866043d7f295e1d0";
+                this.getVisitorApiKey = function() {
+            return visitorApiKey;
+        };
+
+
+        var User = null;
+        
+        this.getUser = function() {
+            return User;
+        };
+
+        var Organization = null;
+        
+        this.getOrganization = function() {
+            return Organization;
+        };
+
+        this.getVar = function(key) {
+            return phpVars[key];
+        };
+
+        this.getAngularCache = function() {
+            return angularCache;
+        };
+
+        this.getInstanceEnv = function() {
+            return instanceEnv;
+        }
+    };
+</SCRIPT>
+             
+<SCRIPT src="//cdn.optimizely.com/js/2765661494.js" async=""></SCRIPT>
+                 
+<META name="GENERATOR" content="MSHTML 11.00.10586.35"></HEAD> 
+<BODY class=" visitor-layout" data-ng-app="fe.app.profile">
+<SCRIPT>
+                dataLayer = [{"site":{"application":"UserProfileBinder","version":"7c48857c969abc04b148032a1b2c9b8524f6884c","environment":"prod"},"user":{"visitor_id":"188.43.224.141.1503126615417156","recognized":false,"internal":false,"loggedIn":false},"br_data.ptype":"product","br_data.cat_id":"freelancers","br_data.search_term":"laravel-framework|ionic-framework|wordpress|angularjs|javascript|sql|css3|html5|php|magento","br_data.prod_id":"~01aabce2f6bf596574","br_data.prod_name":"Diego S."}];
+            </SCRIPT>
+                             <!-- Google Tag Manager -->             
+<NOSCRIPT>&lt;iframe 
+src="//www.googletagmanager.com/ns.html?id=GTM-TC7GHX&amp;amp;site.application=UserProfileBinder&amp;amp;site.version=7c48857c969abc04b148032a1b2c9b8524f6884c&amp;amp;site.environment=prod&amp;amp;user.visitor_id=188.43.224.141.1503126615417156&amp;amp;user.recognized=&amp;amp;user.internal=&amp;amp;user.loggedIn=&amp;amp;br_data.ptype=product&amp;amp;br_data.cat_id=freelancers&amp;amp;br_data.search_term=laravel-framework%7Cionic-framework%7Cwordpress%7Cangularjs%7Cjavascript%7Csql%7Ccss3%7Chtml5%7Cphp%7Cmagento&amp;amp;br_data.prod_id=%7E01aabce2f6bf596574&amp;amp;br_data.prod_name=Diego+S." 
+height="0" width="0" 
+style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</NOSCRIPT>             
+<SCRIPT>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TC7GHX');</SCRIPT>
+             <!-- End Google Tag Manager -->                 
+<SCRIPT type="text/javascript">
+    (function(){
+        window._pxAppId = "PXSs13U803";        var p = document.getElementsByTagName('script')[0],
+        s = document.createElement('script');
+        s.async = 1;
+        s.src = '//client.perimeterx.net/PXSs13U803/main.min.js';
+        p.parentNode.insertBefore(s,p);
+    }());
+</SCRIPT>
+        
+<DIV id="layout">
+<DIV data-o-smf-location="very_top" data-o-smf=""></DIV><HEADER class="header-navbar-visitor" 
+role="banner" data-ng-controller="skinnyHeaderController"><NAV class="navbar navbar-default primary-navbar" 
+role="navigation">
+<DIV class="container"><!-- Brand and toggle get grouped for better mobile display --> 
+        
+<DIV class="navbar-header"><BUTTON class="navbar-toggle collapsed" type="button" 
+data-toggle="collapse" data-target="#visitor-nav"><SPAN class="sr-only">Toggle 
+navigation</SPAN>                 <SPAN class="icon-bar"></SPAN><SPAN class="icon-bar"></SPAN><SPAN 
+class="icon-bar"></SPAN></BUTTON>             <A class="navbar-brand" href="https://www.upwork.com/" 
+target="_self">Upwork</A>         </DIV><!-- Collect the nav links, forms, and other content for toggling --> 
+        
+<DIV class="collapse navbar-collapse" id="visitor-nav">
+<DIV data-keep-focus-on-dropdown-toggle="false" data-is-search-expanded="true" 
+data-align="left" data-o-freelancer-search="">
+<DIV data-placeholder="Find Jobs" data-url="/o/jobs/browse/" data-label="Jobs" 
+data-o-freelancer-search-option=""></DIV>
+<DIV data-placeholder="Find Freelancers" data-url="/o/profiles/browse/" 
+data-label="Freelancers" data-o-freelancer-search-option="" 
+data-selected="true"></DIV></DIV>
+<UL class="nav navbar-nav" role="menu" data-eo-click-out-disable="!isBrowseMenuOpen" 
+data-eo-click-out="toggleBrowseMenu()">
+  <LI data-o-sub-menu=""><A href="https://www.upwork.com/o/profiles/users/_~01aabce2f6bf596574/#" 
+  data-ng-class="{ 'active': isBrowseMenuOpen }" data-ng-click="toggleBrowseMenu()">Browse</A> 
+                      
+  <UL class="sub-menu list-unstyled">
+    <LI class="tile"><SPAN class="glyphicon air-icon-arrow-expand" aria-hidden="true"></SPAN> 
+                                <SPAN data-o-sub-menu-item-active="currentOption.label === 'Freelancers'" 
+    data-o-sub-menu-item="">Browse Categories</SPAN>                             
+    <UL class="list-unstyled">
+      <LI><A href="https://www.upwork.com/cat/developers/" target="_self">Web 
+      Developers</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/cat/mobile-developers/" 
+      target="_self">Mobile Developers</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/cat/designers/" 
+      target="_self">Designers &amp; Creatives</A>                               
+        </LI>
+      <LI><A href="https://www.upwork.com/cat/writing/" 
+      target="_self">Writers</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/cat/administrative-support/" target="_self">Virtual 
+      Assistants</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/cat/customer-service/" 
+      target="_self">Customer Service Agents</A>                                 
+      </LI>
+      <LI><A href="https://www.upwork.com/cat/sales-marketing/" 
+      target="_self">Sales &amp; Marketing Experts</A>                           
+            </LI>
+      <LI><A href="https://www.upwork.com/cat/accounting-consulting/" target="_self">Accountants 
+      &amp; Consultants</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/i/freelancer-categories/" target="_self">View 
+      All Categories</A>                                 </LI></UL></LI>
+    <LI class="tile"><SPAN class="glyphicon air-icon-arrow-expand" aria-hidden="true"></SPAN> 
+                                <SPAN data-o-sub-menu-item="">Browse 
+    Freelancers</SPAN>                             
+    <UL class="list-unstyled">
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/web-mobile-software-dev/" 
+      target="_self">Web, Mobile &amp; Software Dev</A>                          
+             </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/it-networking/" 
+      target="_self">IT &amp; Networking</A>                                 
+      </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/data-science-analytics/" 
+      target="_self">Data Science &amp; Analytics</A>                            
+           </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/engineering-architecture/" 
+      target="_self">Engineering &amp; Architecture</A>                          
+             </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/design-creative/" 
+      target="_self">Design &amp; Creative</A>                                 
+      </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/writing/" target="_self">Writing</A> 
+                                      </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/translation/" 
+      target="_self">Translation</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/legal/" target="_self">Legal</A> 
+                                      </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/admin-support/" 
+      target="_self">Admin Support</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/customer-service/" 
+      target="_self">Customer Service</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/sales-marketing/" 
+      target="_self">Sales &amp; Marketing</A>                                 
+      </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/accounting-consulting/" 
+      target="_self">Accounting &amp; Consulting</A>                             
+          </LI>
+      <LI><A href="https://www.upwork.com/o/profiles/browse/" 
+      target="_self">View All Freelancers</A>                                 
+      </LI></UL></LI>
+    <LI class="tile"><SPAN class="glyphicon air-icon-arrow-expand" aria-hidden="true"></SPAN> 
+                                <SPAN data-o-sub-menu-item-active="currentOption.label === 'Jobs'" 
+    data-o-sub-menu-item="">Browse Jobs</SPAN>                             
+    <UL class="list-unstyled">
+      <LI><A href="https://www.upwork.com/o/profiles/browse/c/web-mobile-software-dev/" 
+      target="_self">Web, Mobile &amp; Software Dev</A>                          
+             </LI>
+      <LI><A href="https://www.upwork.com/o/jobs/browse/c/it-networking/" 
+      target="_self">IT &amp; Networking</A>                                 
+      </LI>
+      <LI><A href="https://www.upwork.com/o/jobs/browse/c/data-science-analytics/" 
+      target="_self">Data Science &amp; Analytics</A>                            
+           </LI>
+      <LI><A href="https://www.upwork.com/o/jobs/browse/c/engineering-architecture/" 
+      target="_self">Engineering &amp; Architecture</A>                          
+             </LI>
+      <LI><A href="https://www.upwork.com/o/jobs/browse/c/design-creative/" 
+      target="_self">Design &amp; Creative</A>                                 
+      </LI>
+      <LI><A href="https://www.upwork.com/o/jobs/browse/c/writing/" target="_self">Writing</A> 
+                                      </LI>
+      <LI><A href="https://www.upwork.com/o/jobs/browse/c/translation/" target="_self">Translation</A> 
+                                      </LI>
+      <LI><A href="https://www.upwork.com/o/jobs/browse/c/legal/" 
+      target="_self">Legal</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/o/jobs/browse/c/admin-support/" 
+      target="_self">Admin Support</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/o/jobs/browse/c/customer-service/" 
+      target="_self">Customer Service</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/o/jobs/browse/c/sales-marketing/" 
+      target="_self">Sales &amp; Marketing</A>                                 
+      </LI>
+      <LI><A href="https://www.upwork.com/o/jobs/browse/c/accounting-consulting/" 
+      target="_self">Accounting &amp; Consulting</A>                             
+          </LI>
+      <LI><A href="https://www.upwork.com/i/job-categories/" target="_self">View 
+      All Categories</A>                                 </LI></UL></LI>
+    <LI class="tile"><SPAN class="glyphicon air-icon-arrow-expand" aria-hidden="true"></SPAN> 
+                                <SPAN data-o-sub-menu-item="">Trending 
+    Skills</SPAN>                             
+    <UL class="list-unstyled">
+      <LI><A href="https://www.upwork.com/hire/android-developers/" target="_self">Android 
+      Developers</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/hire/bookkeepers/" 
+      target="_self">Bookkeepers</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/hire/content-writers/" 
+      target="_self">Content Writers</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/hire/data-science-freelancers/" 
+      target="_self">Data Scientists</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/hire/frontend-development-freelancers/" 
+      target="_self">Front End Developers</A>                                 
+      </LI>
+      <LI><A href="https://www.upwork.com/hire/graphic-designers/" target="_self">Graphic 
+      Designers</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/hire/ios-developers/" 
+      target="_self">iOS Developers</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/hire/seo-experts/" target="_self">SEO 
+      Experts</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/hire/ui-designers/" target="_self">UI 
+      Designers</A>                                 </LI>
+      <LI><A href="https://www.upwork.com/hire/ux-designers/" target="_self">UX 
+      Designers</A>                                 </LI></UL></LI></UL></LI>
+  <LI><A href="https://www.upwork.com/i/how-it-works/client/" target="_self">How 
+  it works</A>                 </LI></UL>
+<UL class="nav navbar-nav navbar-right m-0-left-right">
+  <LI><A class="btn btn-default m-0-left-right" href="https://www.upwork.com/i/how-it-works/freelancer/" 
+  target="_self">Become a freelancer</A>                 </LI></UL>
+<UL class="nav navbar-nav navbar-right">
+  <LI><A href="https://www.upwork.com/signup/create-account" 
+  target="_self"><SPAN 
+  class="glyphicon glyphicon-md air-icon-signup"></SPAN>Sign Up</A>              
+     </LI>
+  <LI><A href="https://www.upwork.com/login" target="_self"><SPAN class="glyphicon glyphicon-md air-icon-login "></SPAN>Login</A> 
+                  </LI></UL></DIV></DIV></NAV></HEADER>
+<SCRIPT type="text/javascript">remove_mark('navCompRenderEnd');remove_measure('navCompRendered');create_mark('navCompRenderEnd');create_measure('navCompRendered', 'navigationStart', 'navCompRenderEnd');</SCRIPT>
+                             
+<DIV class="container">
+<DIV data-o-smf-location="top" data-o-smf=""></DIV>
+<DIV data-ng-controller="fe.app.profile.ProfileDetailsCtrl as vm">
+<DIV><SECTION class="o-profile-section" ng-cloak="" 
+ng-if="vm.error"><ARTICLE><eo-alert type="danger">                    Sorry, 
+something went wrong. Please                     <A href="https://support.upwork.com/anonymous_requests/new" 
+target="_blank">                        contact support                     
+</A>.                 </eo-alert>             </ARTICLE></SECTION>               
+      
+<DIV ng-if="vpd">
+<DIV>
+<DIV class="row m-lg-bottom" 
+data-ng-if="vpd.ready &amp;&amp; actor.isVisitor()">
+<DIV class="col-md-12"><A href="https://www.upwork.com/o/profiles/users/_~01aabce2f6bf596574/"><SPAN 
+class="vertical-align-text-bottom glyphicon air-icon-arrow-prev-circle"></SPAN>Back 
+to search results                 </A>             </DIV></DIV>
+<DIV class="row o-profile clearfix" id="oProfilePage">
+<DIV class="col-md-9" itemtype="http://schema.org/Person" itemscope="">
+<DIV class="m-0-top m-0-right air-card" 
+id="optimizely-header-container-default">
+<DIV class="media">
+<DIV class="pull-left m-0"><IMG class="avatar avatar-lg m-0-top m-0-left" id="userPortrait" 
+alt="Diego S." src="profile_8_files/Users_dscafati_PortraitUrl_100.jpg">         
+                                            </DIV>
+<DIV class="media-body up-active-container">
+<DIV class="row">
+<DIV class="col-md-8">
+<H2 class="m-0-top m-md-bottom"><SPAN class="up-active-context up-active-context-title"><SPAN 
+itemprop="name">                                                Diego S.         
+                                    </SPAN>                                      
+   </SPAN>                                     </H2></DIV>
+<DIV class="col-md-4 p-0-left">
+<DIV class="pull-right lead m-0-top-bottom up-active-context "><SPAN class="pull-right"><SPAN 
+itemprop="pricerange">                                                           
+                         $49.99                                                  
+                           </SPAN>                                     <SPAN 
+class="text-muted">&nbsp;/hr</SPAN>                                 </SPAN>      
+                                                                       
+</DIV></DIV></DIV>
+<H3 class="m-0-top m-sm-bottom" 
+data-ng-click="openEditTitleModal()"><SPAN>EXPERT | FULL-STACK web 
+developer</SPAN></H3>
+<DIV><SPAN class="glyphicon air-icon-location m-0-left-right"></SPAN>            
+                     <SPAN data-ng-if="vpd.profile.location.city"><SPAN class="text-capitalize" 
+itemprop="locality">tandil</SPAN>,                             </SPAN>           
+                                                          <SPAN itemprop="country-name">Argentina</SPAN> 
+                                                            </DIV>
+<DIV class="o-profile-skills m-sm-top"><SPAN class="up-active-context display-inline-block"><SMALL 
+class="o-tag ng-binding m-0-right m-xs-left m-sm-top-bottom o-tag-certified ">   
+                                             Laravel Framework                   
+                          </SMALL>                                               
+                                      <SMALL class="o-tag ng-binding m-0-right m-xs-left m-sm-top-bottom o-tag-certified "> 
+                                               Ionic Framework                   
+                          </SMALL>                                               
+                                      <SMALL class="o-tag ng-binding m-0-right m-xs-left m-sm-top-bottom o-tag-certified "> 
+                                               WordPress                         
+                    </SMALL>                                                     
+                                <SMALL class="o-tag ng-binding m-0-right m-xs-left m-sm-top-bottom o-tag-certified "> 
+                                               AngularJS                         
+                    </SMALL>                                                     
+                                <SMALL class="o-tag ng-binding m-0-right m-xs-left m-sm-top-bottom o-tag-certified "> 
+                                               JavaScript                        
+                     </SMALL>                                                    
+                         </SPAN>                             </DIV></DIV></DIV>
+<DIV></DIV>
+<HR class="m-sm-top">
+
+<DIV class="up-active-container">
+<H2>
+<DIV class="up-active-context display-inline-block"><SPAN ng-click="openEditOverviewDialog()">Overview</SPAN> 
+                            </DIV></H2>
+<DIV class="p-lg-right">
+<P class="o-break-word o-white-space-pre-line up-active-context m-0-bottom" 
+itemprop="description">I'm a professional Systems Engineer and Full-Stack Web 
+Developer with more than 5 YEARS of experience. I'M A TOP-RATED DEVELOPER 
+! ★★★★★ 5.0 I've worked on a couple of companies before venturing as a 
+freelancer, a Digital Agency and a "Magento Solution Partner Gold" Company 
+(eCommerce). Nowadays I work for a couple of consulting companies helping 
+startups and different kind of customers. I'm very young, creative, energetic, 
+extremely passionate and obsessed with learning, full of piss and vinegar!. I'm 
+also a big fan of modern                                  </P></DIV></DIV></DIV>
+<H5><SPAN class="o-icon-portfolios"></SPAN>                         
+<STRONG>Diego S. has added 6 portfolio piece1.</STRONG>                         
+<A href="https://www.upwork.com/signup/view-profile/id/~01aabce2f6bf596574" 
+data-olog-data='{"type":"contractor", "id":"3904539"}' data-olog-sublocation="freelancer_profile_portfolio_signup_cta" 
+data-olog-location="visitor_freelancer_profile" data-olog-name="click" 
+data-olog-trigger="click">Create an account to review 1.</A>                     
+</H5></DIV>
+<DIV class="col-md-3"></DIV></DIV></DIV>
+<SCRIPT type="text/javascript">
+        remove_mark('mainContentRendered_End');remove_measure('mainContentRendered');create_mark('mainContentRendered_End');create_measure('mainContentRendered', 'navigationStart', 'mainContentRendered_End');
+    </SCRIPT>
+ </DIV><fe-profile ng-if="vm.isShowProfile()" fe-settings="vm.overlay.settings" 
+fe-vpd="vm.overlay.vpd"><fe-sidebar-post-job-slot class="ng-cloak"><SECTION 
+class="std-init-reg-form " id="registration-form">
+<DIV ng-controller="RegFormController as vm">
+<DIV class="text-center">
+<H3 class="title ">            To discuss your project with Diego S. sign up.    
+       </H3>
+<P class="subtitle ">              We'll connect you two when the job is posted. 
+            </P></DIV>
+<FORM name="std_init_reg_form" method="post" novalidate="" ng-submit="vm.submit()">
+<DIV eo-block="{{vm.isBlocked()}}">
+<DIV class="form-group m-0-bottom p-sm-bottom"><INPUT name="std_init_reg_form[firstName]" class="form-control" id="std_init_reg_form_firstName" type="text" placeholder="First Name" value="" ng-model="vm.model.firstName">
+<DIV aq-signup-error="firstName"></DIV></DIV>
+<DIV class="form-group m-0-bottom p-sm-bottom"><INPUT name="std_init_reg_form[lastName]" class="form-control" id="std_init_reg_form_lastName" type="text" placeholder="Last Name" value="" ng-model="vm.model.lastName">
+<DIV aq-signup-error="lastName"></DIV></DIV>
+<DIV class="form-group m-0-bottom p-sm-bottom"><INPUT name="std_init_reg_form[email]" class="form-control" id="std_init_reg_form_email" type="text" placeholder="Email" value="" ng-model="vm.model.email">
+<DIV aq-signup-error="email"></DIV></DIV><INPUT name="std_init_reg_form[referrer]" class="form-control" id="std_init_reg_form_referrer" type="hidden" placeholder="" value="https://www.upwork.com/o/profiles/users/_~01aabce2f6bf596574/" ng-model="vm.model.referrer" ng-initialize-model=""><INPUT name="std_init_reg_form[freelancerRef]" class="form-control" id="std_init_reg_form_freelancerRef" type="hidden" placeholder="" value="~01aabce2f6bf596574" ng-model="vm.model.freelancerRef" ng-initialize-model="">
+<DIV><BUTTON class="btn btn-primary m-0-top-bottom m-0-left-right" ng-class='{"disabled" : vm.btnDisabled()}'>Contact</BUTTON></DIV></DIV></FORM>
+<DIV class="post-a-job m-md-top m-lg-bottom">          or, <A href="https://www.upwork.com/signup/?dest=job-posting"><STRONG>Post 
+a Job</STRONG></A>                       <SPAN class="glyphicon-md air-icon-question-circle" 
+eo-popover-trigger="mouseenter" eo-popover-append-to-body="true" 
+eo-popover-html-unsafe="Make your project instantly visible to all active freelancers. The fastest and best way to attract a group of interested applicants."></SPAN> 
+                  </DIV></DIV></SECTION></fe-sidebar-post-job-slot>              
+       </fe-profile>     </DIV></DIV></DIV>
+<STYLE>
+  .bloomreach-section {
+    display: none;
+    margin-bottom: 34px;
+    margin-top: -40px;
+  }
+  .bloomreach-section .br-widget-wrapper {
+    margin-top: -3px;
+    padding-right: 40px;
+  }
+  .bloomreach-section .br-headline,
+  .bloomreach-section #br-related-searches-widget,
+  .bloomreach-section .br-related-query {
+    display: inline;
+  }
+  .bloomreach-section .br-headline,
+  .bloomreach-section a,
+  .bloomreach-section .br-related-query:not(:last-of-type):after {
+    color: #7d7d7d;
+    font-family: 'Gotham SSm';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .bloomreach-section .br-headline {
+    font-weight: bold;
+  }
+  .bloomreach-section a:hover {
+    text-decoration: underline;
+  }
+  .bloomreach-section .br-related-query:not(:last-of-type):after {
+    color: #b2b2b2;
+    content: "•"
+  }
+</STYLE>
+ <SECTION class="bloomreach-section">
+<DIV class="container">
+<DIV class="row">
+<DIV class="col-md-9">
+<DIV class="br-widget-wrapper">
+<P class="br-headline">Related:</P>           <!-- BEGIN RELATED --> 
+<SCRIPT type="text/javascript">var br_related_rid = "R0xlm8cb7xi616sxal82s-r1,m1,uf";</SCRIPT>
+ 
+<SCRIPT type="text/javascript">var br_iuid = "aHR0cHM6Ly93d3cudXB3b3JrLmNvbS9vL3Byb2ZpbGVzL3VzZXJzL19+MDFhYWJjZTJmNmJmNTk2NTc0Lw==";</SCRIPT>
+ 
+<DIV id="br-related-searches-widget">
+<DIV class="br-related-query"><A class="br-related-query-link" href="https://www.upwork.com/fl/atifasif" 
+target="_self">full stack web developer</A>   </DIV>   
+<DIV class="br-related-query"><A class="br-related-query-link" href="https://www.upwork.com/o/profiles/users/_~0123cee0b1ebad6a57/" 
+target="_self">full stack developer web application experts</A>   </DIV>   
+<DIV class="br-related-query"><A class="br-related-query-link" href="https://www.upwork.com/o/profiles/users/_~016d3f96e2106ea8a3/" 
+target="_self">full stack web developer in argentina</A>   </DIV>   
+<DIV class="br-related-query"><A class="br-related-query-link" href="https://www.upwork.com/o/profiles/users/_~019bb4210b9da3d3dc/" 
+target="_self">expert full stack web developer</A>   </DIV>   
+<DIV class="br-related-query"><A class="br-related-query-link" href="https://www.upwork.com/o/profiles/users/_~019bf14e90257f1bbb/" 
+target="_self">expert full-stack developer in ukraine</A>   </DIV>   
+<DIV class="br-related-query"><A class="br-related-query-link" href="https://www.upwork.com/o/profiles/users/_~019ebf88e6fd142def/" 
+target="_self">full-stack web developer with javascript experience</A>   </DIV> 
+</DIV> <!-- END RELATED -->         </DIV></DIV></DIV></DIV></SECTION> 
+<SCRIPT>
+  function brInitHandler() {
+    var relatedSearches = document.querySelectorAll(".bloomreach-section .br-related-query");
+    if (relatedSearches.length > 0) {
+      document.querySelector(".bloomreach-section").style.display = "block";
+    }
+  }
+  window.addEventListener("load", brInitHandler);
+</SCRIPT>
+             
+<DIV id="layout-footer"></DIV></DIV><FOOTER class="footer-navbar-wrapper footer-visitor" 
+role="contentinfo">
+<DIV class="container"><SECTION>
+<DIV class="row">
+<DIV class="col-md-12">
+<DIV class="row links-section">
+<DIV class="col-md-3">
+<H2>Company Info</H2>
+<P><A href="https://www.upwork.com/about/">About Us</A></P>
+<P><A href="https://www.upwork.com/press/">Press</A></P>
+<P><A href="https://www.upwork.com/about/careers/">Careers</A></P>
+<P><A href="https://www.upwork.com/blog/">Upwork Blog</A></P>
+<P><A href="https://www.upwork.com/legal/terms/">Terms of Service</A></P>
+<P><A href="https://www.upwork.com/legal/privacy/">Privacy Policy</A></P>
+<P><A href="https://www.upwork.com/hiring/" target="_blank">Hiring 
+Headquarters</A></P>
+<P><A href="https://www.upwork.com/press/quarterly-skills-index/">Online Work 
+Report</A></P></DIV>
+<DIV class="col-md-4 col-md-offset-1">
+<DIV class="p-lg-left">
+<H2>Additional Services</H2>
+<P><A href="https://www.upwork.com/pro/">Upwork Pro</A></P>
+<P><A href="https://www.upwork.com/enterprise/" target="_blank">Enterprise 
+Solutions</A></P>
+<P><A href="https://www.upwork.com/i/business-resources/" target="_self">Local 
+Business Resources</A></P>
+<H2 class="m-lg-top">Connect with us</H2>
+<P><A href="https://support.upwork.com/home">Contact &amp; Support</A></P>
+<P><A href="https://www.upwork.com/info/about/partners/">Partners</A></P>
+<P><A href="https://developers.upwork.com/">API Center</A></P>
+<P><A href="https://www.upwork.com/i/mobile/">Mobile App</A></P></DIV></DIV>
+<DIV class="col-md-3 col-md-offset-1">
+<H2>Browse</H2>
+<P><A href="https://www.upwork.com/i/freelancer-categories/">Freelancers by 
+Skill</A></P>
+<P><A href="https://www.upwork.com/local/united-states/">Freelancers in 
+USA</A></P>
+<P><A href="https://www.upwork.com/local/united-kingdom/">Freelancers in 
+UK</A></P>
+<P><A href="https://www.upwork.com/local/canada/">Freelancers in Canada</A></P>
+<P><A href="https://www.upwork.com/local/australia/">Freelancers in 
+Australia</A></P>
+<P><A href="https://www.upwork.com/i/job-categories/">Find Jobs</A></P>
+<P><A href="https://www.upwork.com/freelance-jobs/united-states/">Jobs in 
+USA</A></P></DIV></DIV></DIV></DIV></SECTION><SECTION>
+<DIV class="row">
+<DIV class="col-md-12">
+<DIV class="social-icons-wrapper text-center">
+<H2><EM>Follow us</EM></H2><A title="Add Upwork to Google+ circles" href="https://plus.google.com/107040851368295259701" 
+target="_blank"><SPAN 
+class="glyphicon glyphicon-md air-icon-social-google-plus"></SPAN></A>           
+          <A title="Visit Upwork on Facebook" href="https://www.facebook.com/upwork" 
+target="_blank"><SPAN 
+class="glyphicon glyphicon-md air-icon-social-facebook"></SPAN></A>              
+       <A title="Read Upwork company news on LinkedIn" href="https://www.linkedin.com/company/upwork" 
+target="_blank"><SPAN 
+class="glyphicon glyphicon-md air-icon-social-linkedin"></SPAN></A>              
+       <A title="Follow @Upwork on Twitter" href="https://twitter.com/Upwork" 
+target="_blank"><SPAN 
+class="glyphicon glyphicon-md air-icon-social-twitter"></SPAN></A>               
+      <A title="Watch Upwork videos on YouTube" href="https://www.youtube.com/channel/UCvxGFOnwUBDHHcxuPqhe4CQ" 
+target="_blank"><SPAN 
+class="glyphicon glyphicon-md air-icon-social-youtube"></SPAN></A>               
+  </DIV>
+<P class="text-center copyright">© 2015 - 2017 Upwork Global Inc.                
+ </P></DIV></DIV></SECTION></DIV></FOOTER>
+<SCRIPT src="https://www.upwork.com/static/angular/1.5.9/angular-all.min.js"></SCRIPT>
+                     
+<SCRIPT src="https://www.upwork.com/static/fe/webpack/release/rel20170817164544894/profile-vendor-es6.min.js"></SCRIPT>
+                     
+<SCRIPT src="https://www.upwork.com/static/fe/webpack/release/rel20170817164544894/profile-es6.min.js"></SCRIPT>
+                 <!-- start Mixpanel -->
+<SCRIPT type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+        for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+    mixpanel.init("fdf88b8da1749bafc5f24aee259f5aa4");</SCRIPT>
+<!-- end Mixpanel --> 
+<SCRIPT>
+    angular.module('mixpanel', [])
+            .service('mixpanel', function() {
+                return {
+                    track: function(title, parameters) {
+                        mixpanel.track(title, parameters);
+                    }
+                };
+            });
+</SCRIPT>
+ 
+<SCRIPT type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8e23a381b9","applicationID":"12371618","transactionName":"NVxRMRBYVhBXUhBQDAwWcgYWUFcNGUERWw8LWmwVEFZeClpUO0oGDQ==","queueTime":0,"applicationTime":399,"atts":"GRtSR1hCRR4=","errorBeacon":"bam.nr-data.net","agent":""}</SCRIPT>
+ </BODY></HTML>
